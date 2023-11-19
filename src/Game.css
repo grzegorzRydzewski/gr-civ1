@@ -1,0 +1,45 @@
+body::-webkit-scrollbar {
+  display: none;
+
+}
+body {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+}
+:fullscreen .toolbar {
+  position: fixed;
+  top: 0;
+  overflow: scroll;
+}
+h1{
+    color: yellow;
+}
+.game {
+
+}
+.board{
+  line-height: 0px;
+  background-color: white;
+
+}
+.row {
+  width: max-content;
+}
+.ui-panel {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50%;
+  height: 10%;
+  background-color: red;
+}
+.ui-button {
+  margin-left: 2%;
+  margin-right: 2%;
+}
